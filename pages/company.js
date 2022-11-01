@@ -7,7 +7,7 @@ function Company() {
   return (
     <div>
       <Navbar/>
-      <div className='flex justify-center pt-20 p-3 font-semibold gap-10'>
+      <div className='flex justify-center  p-3 font-semibold gap-10'>
          <Link href='/'><a className='hover:text-blue-700'>About</a></Link>
          <Link href='/'><a className='hover:text-blue-700'>Careers</a></Link>
          <Link href='/'><a className='hover:text-blue-700'>Mission</a></Link>

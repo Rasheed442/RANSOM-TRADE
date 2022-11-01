@@ -1,11 +1,18 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css' 
+import { useState,useEffect } from 'react'
 import { GrMenu } from "react-icons/gr"
 import {AiOutlineClose} from 'react-icons/ai'
 function Navbar() {
-  const [nav , setNav] = useState(true)
+
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+}, []);
+
+  const [nav , setNav] = useState(false)
 
   function handleclick(){
    setNav(!nav)
@@ -30,16 +37,16 @@ function Navbar() {
       <div className='  flex w-full justify-between p-5 mb-10 pr-5 bg-white  pl-5 text-white'>
         <h2 onClick={rashbase} className='text-xl lg:text-3xl cursor-pointer text-blue-500 font-bold'><span className='text-orange-500 border border-orange-500'>RANSOM</span>Trade</h2>
 
-        <div className={nav ? 'hidden':`flex gap-10 h-auto text-white leading-10 md:hidden p-5 font-semibold absolute flex-col top-20 left-0 right-0 bg-black text-xl link duration-500 ease-in ${nav ? 'top-100px': ""}`}>
+        {nav ? <div data-aos="fade-right" className="flex gap-10 h-auto text-white leading-10 md:hidden p-5 font-semibold absolute flex-col top-20 left-0 right-0 bg-black text-xl link duration-500 ease-in ">
         <Link href="explore">explore</Link>
         <Link href="learn">Learn</Link> 
         <Link href="individual">Individuals</Link>
         <Link href="/">Businesses</Link>
         <Link href="/">Developers</Link>
         <Link href="company">Company</Link>
-        </div>
+        </div>:""}
 
-        <div className='justify-center lg:flex gap-5 z-10  hidden lg:block  text-black font-semibold '>
+        <div data-aos="fade-down" className='justify-center lg:flex gap-5 z-10  hidden lg:block  text-black font-semibold '>
         <Link href="explore">explore</Link>
         <Link href="learn">Learn</Link>
         <Link href="individual">Individuals</Link>
@@ -53,7 +60,7 @@ function Navbar() {
         <button className='text-white bg-blue-500 p-2 rounded hover:bg-red hover:bg-black' onClick={started}>Get Started</button>
 
         <div className='text-2xl lg:hidden cursor-pointer' onClick={handleclick}>
-        {nav ? <GrMenu/>: <AiOutlineClose className='text-black'/>}
+        {nav ? <AiOutlineClose data-aos="zoom-in" className='text-black'/>: <GrMenu data-aos="zoom-in"/>}
       </div>
       </div>
 
