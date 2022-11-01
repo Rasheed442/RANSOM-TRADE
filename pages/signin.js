@@ -34,7 +34,7 @@ function Signin() {
      <p onClick={home} className='text-4xl cursor-pointer w-12 p-2 font-bold'><span className='text-orange-500'>R</span><span className='text-blue-500'>T</span></p>
     <div className='flex pt-5 justify-center align-center'>
         
-        <div className='border border-gray-500  p-10 rounded-3xl'>
+        <div className=' p-10'>
            <div className='flex flex-col gap-10'>
               <p className='text-blue-500 text-5xl font-semibold'>Rashbase</p>
               <p className='font-semibold text-2xl pb-5'>Sign in to Rashnbase</p>
