@@ -1,5 +1,5 @@
 import React from 'react'
-import Earn from '../Components/Earn'
+import Earn from '../components/Earn'
 import {RiAccountCircleLine} from 'react-icons/ri'
 import {GiBank,GiBuyCard} from 'react-icons/gi'
 function Start() {
