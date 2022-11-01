@@ -21,7 +21,7 @@ export default function Home() {
     <Link href='start'><a>
       <div className='flex gap-2'>
         <GrBitcoin className='text-blue-500'/>
-         <h1 className='text-blue-500'>Jump start your Portfolio</h1>
+        <Link href='signin'><h1 className='text-blue-500'>Jump start your Portfolio</h1></Link> 
          <AiOutlineArrowRight className='text-blue-500'/>
       </div></a></Link>
       <div className='flex flex-col gap-5'>
@@ -32,7 +32,7 @@ export default function Home() {
         <div className='flex flex-col lg:flex-row gap-2'>
           <input className='border border-blue-500 p-2 rounded cursor-pointer w-80 outline-0' placeholder='Email address' type="text"/>
           <button className='border cursor-pointer border-blue-500 p-4 cursor-pointer border hover:bg-blue-600 rounded bg-blue-700 w-80 '>
-            <Link href='start'><a>Get Started</a></Link></button>
+            <Link href='signin'><a>Get Started</a></Link></button>
         </div>
 
 </div>

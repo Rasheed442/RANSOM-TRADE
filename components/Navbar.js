@@ -21,7 +21,7 @@ function Navbar() {
     window.location="signin"
   }
   function started(e){
-   window.location="start"
+   window.location="signin"
   }
   function rashbase(){
     window.location="/"
