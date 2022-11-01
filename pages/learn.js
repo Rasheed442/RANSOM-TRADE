@@ -1,6 +1,6 @@
 import React from 'react'
-import Basics from '../Components/Basics'
-import Navbar from '../Components/Navbar'
+import Basics from '../components/Basics'
+import Navbar from '../components/Navbar'
 import Image from 'next/image'
 function learn() {
   return (

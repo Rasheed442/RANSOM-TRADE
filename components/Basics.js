@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import More from '../Components/More'
+import More from '../components/More'
 function Basics() {
   return (
     <div>

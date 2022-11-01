@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {TbWorld} from 'react-icons/tb'
 import {BsArrowDownRight} from 'react-icons/bs'
-import Footer from '../Components/Footer'
+import Footer from '../components/Footer'
 import {TbNorthStar} from 'react-icons/tb'
 import {GiChart} from 'react-icons/gi'
-import Explorecrypto from '../Components/Explorecrypto'
-import Navbar from '../Components/Navbar'
+import Explorecrypto from '../components/Explorecrypto'
+import Navbar from '../components/Navbar'
 const Explore =  ({crypto}) => {
     
      const [search, setSearch] = useState()

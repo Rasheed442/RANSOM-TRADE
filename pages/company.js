@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Navbar from '../components/Navbar'
 import Link from 'next/link'
 import Image from 'next/image'
-import Footer from '../Components/Footer'
+import Footer from '../components/Footer'
 function Company() {
   return (
     <div>

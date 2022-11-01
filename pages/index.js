@@ -1,15 +1,15 @@
 import { GrBitcoin } from "react-icons/gr"
-import Platform from "../Components/Platform"
-import Navbar from '../Components/Navbar'
+import Platform from "../components/Platform"
+import Navbar from '../components/Navbar'
 import { AiOutlineArrowRight, AiOutlineMobile } from "react-icons/ai"
 import Image from "next/image"
 import { FcPositiveDynamic } from 'react-icons/fc'
 import Link from "next/link"
 import {BsFillCalendarCheckFill} from 'react-icons/bs'
 import {GiCombinationLock} from 'react-icons/gi'
-import Table from '../Components/Table'
-import Footer from "../Components/Footer"
-import Start from "../Components/Start"
+import Table from '../components/Table'
+import Footer from "../components/Footer"
+import Start from "../components/Start"
 export default function Home() {
   return (
     
