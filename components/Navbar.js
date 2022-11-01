@@ -27,7 +27,7 @@ function Navbar() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='  flex fixed w-full justify-between p-5 mb-10 pr-5 bg-white  pl-5 text-white'>
+      <div className='  flex w-full justify-between p-5 mb-10 pr-5 bg-white  pl-5 text-white'>
         <h2 onClick={rashbase} className='text-xl lg:text-3xl cursor-pointer text-blue-500 font-bold'><span className='text-orange-500 border border-orange-500'>RANSOM</span>Trade</h2>
 
         <div className={nav ? 'hidden':`flex gap-10 h-auto text-white leading-10 md:hidden p-5 font-semibold absolute flex-col top-20 left-0 right-0 bg-black text-xl link duration-500 ease-in ${nav ? 'top-100px': ""}`}>

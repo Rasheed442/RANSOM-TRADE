@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Link from 'next/link'
-function signin() {
+function Signin() {
     const [email, setEmail] = useState()
     const [loading, setLoading] = useState()
     const [reply, setReply] = useState()
@@ -69,5 +69,5 @@ function signin() {
   )
 }
 
-export default signin;
+export default Signin;
 

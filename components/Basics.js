@@ -53,7 +53,7 @@ function Basics() {
         className='w-3/4 transition hover:scale-110 cursor-pointer' src='/bitcoin1.png'/>
         <span >BEGINNERS GUIDE</span>
         <p className='font-bold text-2xl cursor-pointer hover:text-blue-500'>What is Bitcoin?</p>
-        <p>Bitcoin is the world's first widely adopted<br/> cryptocurrency — 
+        <p>Bitcoin is the world&apos;s first widely adopted<br/> cryptocurrency — 
             it allows for secure and <br/>seamless peer-to-peer transactions 
             on the internet.</p>
     </div>
@@ -110,7 +110,7 @@ function Basics() {
          priority
         className='w-64 h-80 transition hover:scale-110 cursor-pointer' src='/fud.png'/>
         <span>Glossary</span>
-        <p className='font-bold text-xl'>Don't let FUD give you <br/> FOMO or you'll end up REKT<br/> - crypto slang, explained</p>
+        <p className='font-bold text-xl'>Don&apos;t let FUD give you <br/> FOMO or you&apos;ll end up REKT<br/> - crypto slang, explained</p>
        </div>
 
      </div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import {AiFillCheckCircle} from 'react-icons/ai'
-function individual() {
+function Individual() {
   return (
     <div>
       <Navbar/>
@@ -42,7 +42,7 @@ function individual() {
             <AiFillCheckCircle className='text-blue-700 text-4xl'/>
             <div className='flex flex-col gap-2'>
                 <p className='font-semibold text-3xl'>Trade Efficiently</p>
-                <p className='text-base font-semibold'>You don't need to own crypto or hold a crypto wallet.
+                <p className='text-base font-semibold'>You don&apos;t need to own crypto or hold a crypto wallet.
                 Trades are opened,closed,and settled quickly in U.S dollars.
                 </p>
             </div>
@@ -140,4 +140,4 @@ function individual() {
   )
 }
 
-export default individual
+export default Individual

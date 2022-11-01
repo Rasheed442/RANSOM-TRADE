@@ -7,7 +7,7 @@ import {TbNorthStar} from 'react-icons/tb'
 import {GiChart} from 'react-icons/gi'
 import Explorecrypto from '../Components/Explorecrypto'
 import Navbar from '../Components/Navbar'
-const explore =  ({crypto}) => {
+const Explore =  ({crypto}) => {
     
      const [search, setSearch] = useState()
 
@@ -90,7 +90,7 @@ const explore =  ({crypto}) => {
   )
 }
 
-export default explore
+export default Explore
 export async function getServerSideProps(){
     const response = await fetch ("https://api.coinranking.com/v2/coins")
     const crypto = await response.json();
