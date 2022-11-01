@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar/>
 <div className='flex justify-between pt-5 '>
 
-   <div className='pt-20 pl-10 text-xl flex gap-8 flex-col'>
+   <div className='pt-20 pl-5 lg:pl-10 text-xl flex gap-8 flex-col'>
     <Link href='start'><a>
       <div className='flex gap-2'>
         <GrBitcoin className='text-blue-500'/>
@@ -26,7 +26,7 @@ export default function Home() {
       </div></a></Link>
       <div className='flex flex-col gap-5'>
         <h1 className='text-6xl md:text-7xl font-semibold'>Jump start <br/> Your Crypto <br/> Portfolio</h1>
-        <p className='font-semibold'>Rashbase is the easiest place to buy and sell <br/> cryptocurrency. Sign up and get started today.</p>
+        <p className='font-semibold'>Ransom trade is the easiest place to buy and sell <br/> cryptocurrency. Sign up and get started today.</p>
       </div>
         
         <div className='flex flex-col lg:flex-row gap-2'>

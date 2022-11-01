@@ -36,8 +36,8 @@ function Signin() {
         
         <div className=' p-10'>
            <div className='flex flex-col gap-10'>
-              <p className='text-blue-500 text-5xl font-semibold'>Rashbase</p>
-              <p className='font-semibold text-2xl pb-5'>Sign in to Rashnbase</p>
+              <p className='text-blue-500 text-5xl font-semibold'>Ransom Trade</p>
+              <p className='font-semibold text-2xl pb-5'>Sign in to Ransom Trade</p>
            </div>
 
         <form onSubmit={submithandler}>
