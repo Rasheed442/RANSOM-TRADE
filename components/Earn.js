@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Earns() {
   return (
     <div className='pt-20 p-5 flex flex-col bg-blue-100 lg:flex-row gap-20 '>
-        <img className='p-5 rounded' style={{width:"550px"}} src='pics.png' />
+        <Image
+        width={500}
+        height={200}
+        className='p-5 rounded'  src='/pics.png' />
         
         <div className='pt-5 flex flex-col gap-10'>
             <h1 className='text-5xl font-bold'>Earn up to $10 worth of crypto</h1>

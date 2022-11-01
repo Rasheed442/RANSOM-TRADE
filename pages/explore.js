@@ -30,9 +30,9 @@ const explore =  ({crypto}) => {
     </div>
     </div>
 
-    <div className='p-5 lg:flex flex-row gap-96 pt-10'>
+    <div className='p-5 flex flex-col gap-10 lg:flex-row lg:gap-96 pt-10'>
 
-        <div className='flex gap-3 '>
+        <div className='flex gap-3'>
             <p className='text-4xl font-semibold text-blue-500'>Crypto Prices</p>
             <p className='mt-3'>9.981 assets</p>
         </div>
@@ -63,7 +63,7 @@ const explore =  ({crypto}) => {
         </div>
     </div>
       
-      <div className='flex flex-col lg:grid grid-cols-5 '>
+      <div className='flex flex-col lg:grid grid-cols-5 ' >
            {crypto.data.coins.filter((val) => {
             if(search == ""){
                 return val;
@@ -72,7 +72,7 @@ const explore =  ({crypto}) => {
             }
            }).map((cryptos) => {
         return (
-            <div>
+            <div key={crypto.id}>
                <Explorecrypto
                name={cryptos.name}
                icon={cryptos.iconUrl}

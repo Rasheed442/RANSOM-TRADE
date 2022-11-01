@@ -2,6 +2,7 @@ import { GrBitcoin } from "react-icons/gr"
 import Platform from "../Components/Platform"
 import Navbar from '../Components/Navbar'
 import { AiOutlineArrowRight, AiOutlineMobile } from "react-icons/ai"
+import Image from "next/image"
 import { FcPositiveDynamic } from 'react-icons/fc'
 import Link from "next/link"
 import {BsFillCalendarCheckFill} from 'react-icons/bs'
@@ -14,7 +15,7 @@ export default function Home() {
     
     <div>
       <Navbar/>
-<div className='flex justify-between '>
+<div className='flex justify-between pt-5 '>
 
    <div className='pt-20 pl-10 text-xl flex gap-8 flex-col'>
     <Link href='start'><a>
@@ -36,7 +37,10 @@ export default function Home() {
 
 </div>
         <div className='mt-20 hidden lg:block pr-20'>
-        <img className='border rounded-2xl' style={{width:"400px", height:"450px"}} src='btc.jpeg'/> 
+        <Image className='border rounded-2xl'
+        width={400}
+        height={500}
+        src='/btc.jpeg'/> 
     </div>
 </div>
         
@@ -81,7 +85,10 @@ export default function Home() {
 </div>
 
 <div>
-      <img className="w-100 p-5 h-80 rounded mt-20  " src="bitcoin.jpg"/>
+      <Image 
+       height={300}
+       width={500}
+      className=" p-5 h-80 rounded mt-20  " src="/bitcoin.jpg"/>
   </div>
 
 </div>

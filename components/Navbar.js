@@ -27,10 +27,10 @@ function Navbar() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='  flex justify-between pt-7 pr-5 border pb-5 pl-5 text-white'>
+      <div className='  flex fixed w-full justify-between p-5 mb-10 pr-5 bg-white  pl-5 text-white'>
         <h2 onClick={rashbase} className='text-xl lg:text-3xl cursor-pointer text-blue-500 font-bold'><span className='text-orange-500 border border-orange-500'>RANSOM</span>Trade</h2>
 
-        <div className={nav ? 'hidden':`flex gap-10 h-full  text-white leading-10 md:hidden p-5 font-semibold absolute flex-col top-20 left-0 right-0 bg-black text-xl link duration-500 ease-in ${nav ? 'top-100px': ""}`}>
+        <div className={nav ? 'hidden':`flex gap-10 h-auto text-white leading-10 md:hidden p-5 font-semibold absolute flex-col top-20 left-0 right-0 bg-black text-xl link duration-500 ease-in ${nav ? 'top-100px': ""}`}>
         <Link href="explore">explore</Link>
         <Link href="learn">Learn</Link> 
         <Link href="individual">Individuals</Link>
@@ -39,7 +39,7 @@ function Navbar() {
         <Link href="company">Company</Link>
         </div>
 
-        <div className='justify-center lg:flex gap-5 z-10 hidden lg:block  text-black font-semibold '>
+        <div className='justify-center lg:flex gap-5 z-10  hidden lg:block  text-black font-semibold '>
         <Link href="explore">explore</Link>
         <Link href="learn">Learn</Link>
         <Link href="individual">Individuals</Link>

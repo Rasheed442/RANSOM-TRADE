@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import {AiFillCheckCircle} from 'react-icons/ai'
@@ -7,7 +8,7 @@ function individual() {
     <div>
       <Navbar/>
 
-<div className="flex flex-col p-10 pl-20 gap-40 lg:flex-row">
+<div className="flex flex-col pt-20 p-10 pl-20 gap-40 lg:flex-row">
 
       <div className='pt-20 flex flex-col gap-5'>
 
@@ -47,7 +48,10 @@ function individual() {
             </div>
          </div>
          </div>
-      <img className='w-3/4 lg:w-2/5' src='hmm.png'/>
+      <Image
+      width={700}
+      height={50}
+      className='w-3/4 lg:w-2/5 pt-8 hidden lg:block' src='/hmm.png'/>
    </div>
 
         <div className='flex flex-col p-10'>
